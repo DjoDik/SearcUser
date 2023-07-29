@@ -3,7 +3,6 @@ import UserList from './UserList';
 import Pagination from './Pagination';
 
 export default function UserContainer({ users, setOneUserInfo }) {
-  console.log(users);
   const [userOnPage, setUserOnPage] = useState();
   const itemsPerPage = 5;
 
