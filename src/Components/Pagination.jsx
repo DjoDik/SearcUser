@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 export default function Pagination({ users, setPage, itemsPerPage }) {
   const [currentPage, setCurrentPage] = useState(1);
-  console.log('useStatePage', currentPage);
 
   const nextPage = () => {
     // Через prev не корректно меняются страницы. По этому через переменную
